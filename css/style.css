@@ -261,7 +261,6 @@ p.tagline, .address-detail a.tagline {
   padding-bottom: 100px;
   background: transparent url("../img/rightbg.jpg"); }
   .page-right .page-inner .trans-overlay-dark-contact {
-    background: #fff;
     /* The Fallback */
     background: rgba(255, 255, 255, 0.9);
     position: absolute;
