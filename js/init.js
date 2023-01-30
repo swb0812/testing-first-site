@@ -219,6 +219,21 @@ function pogody(){
 	 
 	 })
 
+	 $('a.thumb2').on('click',function(){ // when press link
+
+		var fullImg = $(this).attr('href'); // get full size img url
+		$('#popup2 img').attr('src', fullImg); // image in popup now has source that you need
+		$('#popup2').show(); // popup appears
+		return false; // do not redirect 
+	 
+	 })
+	 
+	 $('.close_popup, .popup-background').on('click', function(){
+	 
+		$('#popup2').hide(); // close popup
+	 
+	 })
+
 /*input box animation*/
 if (!String.prototype.trim) {
 		(function() {
