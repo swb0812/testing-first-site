@@ -95,6 +95,31 @@ function pogody(){
         }
     }
 	});
+	/*About Owl JS*/
+	$('.qualities2').owlCarousel({
+		loop:true,
+		autoplay:true,
+		nav:false,
+		dots:true,
+		smartSpeed: 1500,
+		margin:30,
+		items:3,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+				nav:true
+			},
+			600:{
+				items:2,
+				nav:true
+			},
+			1000:{
+				items:3,
+				nav:true
+			}
+		}
+		});
 	/*Team Owl JS*/
 	$('.team').owlCarousel({
     loop:true,

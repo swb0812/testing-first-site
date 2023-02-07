@@ -386,6 +386,18 @@ p.tagline {
 			-moz-box-shadow: 0 0 0 4px $primery_color inset;
 		}
 }
+#qualities2 .owl-carousel.owl-theme {
+	.owl-item {
+			background: rgba(0,0,0,.5);
+		}
+	
+	.owl-item:hover {
+			box-shadow: 0 0 0 4px $primery_color inset;
+			-webkit-box-shadow: 0 0 0 4px $primery_color inset;
+			-ms-box-shadow: 0 0 0 4px $primery_color inset;
+			-moz-box-shadow: 0 0 0 4px $primery_color inset;
+		}
+}
 
 
 .notify-btn {
@@ -422,6 +434,33 @@ p.tagline {
 }
 
 #qualities,#team{
+	color:$primery_color;
+	padding-top:52px;
+	span {
+		display:block;
+	}
+	.item {
+		padding:0 32px;
+		overflow:hidden;
+	}
+	.fa-qual {
+		font-size:36px;
+		padding-top:28px;
+		padding-bottom:5px;
+	}
+	.qual-tag,.name{
+		font-size:18px;
+		font-weight:600;
+		text-transform:uppercase;
+	}
+	.qual-desc{
+		font-size:12px;
+		font-weight:500;
+		padding:25px 0;
+	}
+	
+}
+#qualities2,#team{
 	color:$primery_color;
 	padding-top:52px;
 	span {

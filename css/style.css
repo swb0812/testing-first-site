@@ -310,6 +310,14 @@ p.tagline, .address-detail a.tagline {
   -ms-box-shadow: 0 0 0 4px #000 inset;
   -moz-box-shadow: 0 0 0 4px #000 inset; }
 
+#qualities2 .owl-carousel.owl-theme .owl-item {
+  background: rgba(0,0,0,.5); }
+#qualities2 .owl-carousel.owl-theme .owl-item:hover {
+  box-shadow: 0 0 0 4px #000 inset;
+  -webkit-box-shadow: 0 0 0 4px #000 inset;
+  -ms-box-shadow: 0 0 0 4px #000 inset;
+  -moz-box-shadow: 0 0 0 4px #000 inset; }
+
 .notify-btn {
   padding-top: 50px;
   padding-bottom: 10px; }
@@ -363,6 +371,27 @@ p.tagline, .address-detail a.tagline {
     font-size: 12px;
     font-weight: 500;
     padding: 25px 0; }
+
+  #qualities2, #team {
+    color: rgba(0,0,0,.5);
+    padding-top: 52px; }
+    #qualities2 span, #team span {
+      display: block; }
+    #qualities2 .item, #team .item {
+      padding: 0 32px;
+      overflow: hidden; }
+    #qualities2 .fa-qual, #team .fa-qual {
+      font-size: 36px;
+      padding-top: 28px;
+      padding-bottom: 5px; }
+    #qualities2 .qual-tag, #qualities2 .name, #team .qual-tag, #team .name {
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase; }
+    #qualities2 .qual-desc, #team .qual-desc {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 25px 0; }
 
 .team-sec {
   margin-top: 20px !important;
