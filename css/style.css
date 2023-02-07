@@ -300,7 +300,7 @@ p.tagline, .address-detail a.tagline {
 .owl-carousel.owl-theme .owl-nav {
   display: none; }
 .owl-carousel.owl-theme .owl-dot.active span {
-  background: #000; }
+  background: white; }
 
 #qualities .owl-carousel.owl-theme .owl-item {
   background: #fff; }
