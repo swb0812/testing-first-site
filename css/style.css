@@ -2149,3 +2149,28 @@ figcaption {
 .gallery-columns-9 .gallery-caption {
   display: none;
 }
+
+
+.image-group {
+  margin-left: 18%;
+}
+
+@media only screen and (max-width: 600px) {
+  .screen-career {
+    width: 10px;
+  }
+
+  .image-group {
+    margin-left: 0%;
+  }
+
+  .screen-image {
+    margin-left: 8%; width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) and (max-width: 992px) {
+    .screen-career {
+      width: 10px;
+    }
+}
