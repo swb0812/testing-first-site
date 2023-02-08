@@ -2217,6 +2217,11 @@ figcaption {
     color:white;
     margin-right: 4vw;
   }
+
+  .custom-nav {
+    left: 40px;
+    top: 36px;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
@@ -2255,5 +2260,10 @@ figcaption {
     transition-delay: 0s; 
     color:white;
     margin-right: 4vw;
+  }
+
+  .custom-nav {
+    left: 40px;
+    top: 36px;
   }
 }
