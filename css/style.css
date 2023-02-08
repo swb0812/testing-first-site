@@ -2164,6 +2164,22 @@ figcaption {
 	position: relative;
 }
 
+.screen-nav-bar {
+  transition-timing-function: ease; 
+  transition-duration: 0.9s; 
+  transition-delay: 0s; 
+  color:black;
+  margin-right: 0.8vw;
+}
+
+.screen-nav-bar-menu-page {
+  transition-timing-function: ease; 
+  transition-duration: 0.9s; 
+  transition-delay: 0s; 
+  color:white;
+  margin-right: 0.8vw;
+}
+
 @media only screen and (max-width: 600px) {
   .screen-career {
     width: 10px;
@@ -2184,6 +2200,22 @@ figcaption {
   .screen-logo {
     margin-left: 32%;
     position: relative;
+  }
+
+  .screen-nav-bar {
+    transition-timing-function: ease; 
+    transition-duration: 0.9s; 
+    transition-delay: 0s; 
+    color:black;
+    margin-right: 2vw;
+  }
+
+  .screen-nav-bar-menu-page {
+    transition-timing-function: ease; 
+    transition-duration: 0.9s; 
+    transition-delay: 0s; 
+    color:white;
+    margin-right: 2vw;
   }
 }
 
@@ -2207,5 +2239,21 @@ figcaption {
   .screen-logo {
     margin-left: 32%;
     position: relative;
+  }
+
+  .screen-nav-bar {
+    transition-timing-function: ease; 
+    transition-duration: 0.9s; 
+    transition-delay: 0s; 
+    color:black;
+    margin-right: 2vw;
+  }
+
+  .screen-nav-bar-menu-page {
+    transition-timing-function: ease; 
+    transition-duration: 0.9s; 
+    transition-delay: 0s; 
+    color:white;
+    margin-right: 2vw;
   }
 }
