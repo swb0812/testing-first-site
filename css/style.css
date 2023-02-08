@@ -2186,8 +2186,24 @@ figcaption {
   z-index: 300;
 }
 
+.screen-popup-image {
+  position: absolute;
+  top: 12%;
+  width: auto;
+  left: 33%;
+  height: 80%;
+}
+
 @media only screen and (max-width: 600px) {
-  
+
+  .screen-popup-image {
+    position: absolute;
+    top: 12%;
+    width: auto;
+    left: 16%;
+    height: 80%;
+  }
+
   .screen-career-background-menu-page {
     position: fixed;
     z-index: 300;
@@ -2242,6 +2258,14 @@ figcaption {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
+
+  .screen-popup-image {
+    position: absolute;
+    top: 12%;
+    width: auto;
+    left: 33%;
+    height: 80%;
+  }
 
   .screen-career-background-menu-page {
     position: fixed;
