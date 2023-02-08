@@ -2155,6 +2155,15 @@ figcaption {
   margin-left: 18%;
 }
 
+.screen-menu-message {
+  width: 50%;
+}
+
+.screen-logo {
+  margin-left: 42%;
+	position: relative;
+}
+
 @media only screen and (max-width: 600px) {
   .screen-career {
     width: 10px;
@@ -2167,10 +2176,36 @@ figcaption {
   .screen-image {
     margin-left: 8%; width: 90%;
   }
+
+  .screen-menu-message {
+    width: 76%;
+  }
+
+  .screen-logo {
+    margin-left: 32%;
+    position: relative;
+  }
 }
 
-@media only screen and (max-width: 600px) and (max-width: 992px) {
-    .screen-career {
-      width: 10px;
-    }
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .screen-career {
+    width: 10px;
+  }
+
+  .image-group {
+    margin-left: 0%;
+  }
+
+  .screen-image {
+    margin-left: 8%; width: 90%;
+  }
+
+  .screen-menu-message {
+    width: 76%;
+  }
+
+  .screen-logo {
+    margin-left: 32%;
+    position: relative;
+  }
 }
