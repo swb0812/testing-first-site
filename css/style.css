@@ -2180,7 +2180,19 @@ figcaption {
   margin-right: 0.8vw;
 }
 
+.screen-career-background-menu-page {
+  position: fixed; 
+  background-color: white; 
+  z-index: 300;
+}
+
 @media only screen and (max-width: 600px) {
+  
+  .screen-career-background-menu-page {
+    position: fixed;
+    z-index: 300;
+  }
+  
   .screen-career {
     width: 10px;
   }
@@ -2225,6 +2237,12 @@ figcaption {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
+  
+  .screen-career-background-menu-page {
+    position: fixed;
+    z-index: 300;
+  }
+
   .screen-career {
     width: 10px;
   }
