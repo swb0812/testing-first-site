@@ -2235,6 +2235,10 @@ figcaption {
     left: 40px;
     top: 36px;
   }
+
+  .screen-portfolio-gallery {
+    margin-top: 15%;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
@@ -2285,5 +2289,9 @@ figcaption {
   .custom-nav {
     left: 40px;
     top: 36px;
+  }
+
+  .screen-portfolio-gallery {
+    margin-top: 15%;
   }
 }
