@@ -2207,7 +2207,7 @@ figcaption {
     transition-duration: 0.9s; 
     transition-delay: 0s; 
     color:black;
-    margin-right: 2vw;
+    margin-right: 6vw;
   }
 
   .screen-nav-bar-menu-page {
@@ -2215,7 +2215,7 @@ figcaption {
     transition-duration: 0.9s; 
     transition-delay: 0s; 
     color:white;
-    margin-right: 2vw;
+    margin-right: 6vw;
   }
 }
 
@@ -2246,7 +2246,7 @@ figcaption {
     transition-duration: 0.9s; 
     transition-delay: 0s; 
     color:black;
-    margin-right: 2vw;
+    margin-right: 6vw;
   }
 
   .screen-nav-bar-menu-page {
@@ -2254,6 +2254,6 @@ figcaption {
     transition-duration: 0.9s; 
     transition-delay: 0s; 
     color:white;
-    margin-right: 2vw;
+    margin-right: 6vw;
   }
 }
