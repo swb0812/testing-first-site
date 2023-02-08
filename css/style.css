@@ -1363,7 +1363,7 @@ body:not(.header--menu-open) .header-nav-item--active>a {
 .project__img-holder {
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 200;
 }
 
 .project__img-holder > a {
