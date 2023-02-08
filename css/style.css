@@ -1225,7 +1225,7 @@ body:not(.header--menu-open) .header-nav-item--active>a {
   position: absolute;
   background-size: cover;
   background-position: center;
-  z-index: 1000;
+  z-index: 200;
   width: 100%;
   height: 100%;
 }
@@ -2181,7 +2181,7 @@ figcaption {
 }
 
 .screen-career-background-menu-page {
-  position: fixed; 
+  position: fixed !important; 
   background-color: white; 
   z-index: 300;
 }
@@ -2205,7 +2205,7 @@ figcaption {
   }
 
   .screen-career-background-menu-page {
-    position: fixed;
+    position: fixed !important;
     z-index: 300;
   }
   
