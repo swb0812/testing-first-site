@@ -2194,11 +2194,12 @@ figcaption {
   }
   
   .screen-career {
-    width: 10px;
+    width: 0px;
+    position: fixed !important;
   }
 
   .image-group {
-    margin-left: 0%;
+    margin-left: -6%;
   }
 
   .screen-image {
@@ -2210,7 +2211,7 @@ figcaption {
   }
 
   .screen-logo {
-    margin-left: 32%;
+    margin-left: 26%;
     position: relative;
   }
 
@@ -2237,18 +2238,19 @@ figcaption {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  
+
   .screen-career-background-menu-page {
     position: fixed;
     z-index: 300;
   }
 
   .screen-career {
-    width: 10px;
+    width: 0px;
+    position: fixed !important;
   }
 
   .image-group {
-    margin-left: 0%;
+    margin-left: -6%;
   }
 
   .screen-image {
@@ -2260,7 +2262,7 @@ figcaption {
   }
 
   .screen-logo {
-    margin-left: 32%;
+    margin-left: 26%;
     position: relative;
   }
 
