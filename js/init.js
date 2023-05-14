@@ -62,7 +62,7 @@ $(window).on("resize", function () {
 
 
 // Init
-initMasonry();
+// initMasonry();
 
 /***** Pogody function start *****/
 function pogody(){
