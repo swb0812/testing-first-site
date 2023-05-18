@@ -2196,6 +2196,10 @@ figcaption {
 
 @media only screen and (max-width: 600px) {
 
+  .hidden_on_small_screen {
+    display: none;
+  }
+
   .screen-popup-image {
     position: absolute;
     top: 12%;
@@ -2258,6 +2262,9 @@ figcaption {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
+  .hidden_on_small_screen {
+    display: none;
+  }
 
   .screen-popup-image {
     position: absolute;
