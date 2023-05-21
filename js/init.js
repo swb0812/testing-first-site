@@ -148,7 +148,7 @@ function pogody(){
 	
 	/*Typed js*/
 	$("#typed").typed({
-		strings: [" Keep Improving", " Tokyo Style", " Craftsmanship"],
+		strings: [" Tokyo Style", " Craftsmanship"],
 		typeSpeed: 100,
 		backDelay: 900,
 		loop: true,

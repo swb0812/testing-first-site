@@ -106,6 +106,26 @@ p, .address-detail a {
   opacity: 0;
   visibility: hidden; }
 
+.fontColor {
+  color: white;
+}
+.backgroundColor {
+  background: white !important;
+}
+.padding-top-midium {
+  padding-top: 20px;
+}
+.padding-bottom-small {
+  padding-bottom: 10px;
+}
+
+.font-size-lg {
+  font-size: large;
+}
+
+.padding-left-lg {
+  padding-left: 60px;
+}
 .preloader-it {
   background: #fff;
   position: fixed;
