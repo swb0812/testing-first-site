@@ -119,6 +119,10 @@ p, .address-detail a {
   padding-bottom: 10px;
 }
 
+.padding-top-large {
+  padding-top: 40px;
+}
+
 .font-size-lg {
   font-size: large;
 }
