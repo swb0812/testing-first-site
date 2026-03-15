@@ -18,6 +18,9 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<script src="https://kit.fontawesome.com/d1b3b9d020.js" crossorigin="anonymous"></script>
 	</head>
+
+
+
 	
 	<body data-ng-app="contactApp">
 		<!--Preloader-->
@@ -533,6 +536,34 @@
 		
 		</div>
 		<!-- /Container -->
+
+		<!-- Weather Notice Popup -->
+		<div id="weatherPopup" class="weather-popup">
+		<div class="weather-popup-content">
+			<span class="weather-close">&times;</span>
+			<p>
+			Due to today's weather, we will close early at <b>6 PM today (March 15, 2026)</b>.<br>
+			Please stay warm and travel safely.
+			</p>
+		</div>
+		</div>
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+			const popup = document.getElementById("weatherPopup");
+			const closeBtns = document.querySelectorAll(".weather-close");
+
+			closeBtns.forEach(btn => {
+				btn.addEventListener("click", function() {
+				popup.style.display = "none";
+				});
+			});
+
+			popup.addEventListener("click", function(e){
+				if(e.target === popup) popup.style.display = "none";
+			});
+			});
+		</script>
 		
 		<!-- Scripts -->
 		<script src="js/jquery-1.11.3.min.js"></script>
